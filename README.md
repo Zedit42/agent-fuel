@@ -67,13 +67,16 @@ Agent needs gas → checks balance → low? → MoonPay CLI buys crypto → agen
 ## 🔧 Installation
 
 ```bash
-# Install as OpenClaw skill
+# Install from ClawHub (recommended)
 clawhub install agent-fuel
 
-# Or manually
+# Then install MoonPay CLI
 npm install -g @moonpay/cli
 mp login
 ```
+
+[![ClawHub](https://img.shields.io/badge/ClawHub-agent--fuel-orange)](https://clawhub.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Zedit42%2Fagent--fuel-blue)](https://github.com/Zedit42/agent-fuel)
 
 ## 📋 Configuration
 
